@@ -1,6 +1,12 @@
-![alt text](image.png)
-![alt text](image-1.png)
 # 🚀 Projeto de Monitoramento com Display OLED e Sensor Ultrassônico
+
+<div align="center">
+  
+| ![Demonstração 1](image.png) | ![Demonstração 2](image-1.png) |
+|------------------------------|------------------------------|
+| ![Diagrama 1](image-2.png)    | ![Diagrama 2](image-3.png)    |
+
+</div>
 
 ## 📑 Sumário
 - [👤 Autor](#-autor)
@@ -13,7 +19,7 @@
 - [🤝 Contribuições](#-contribuições)
 
 ## 👤 Autor
-**🎓 [Atenilton Santos de Souza Júnior]**    
+**🎓 Atenilton Santos de Souza Júnior**  
 🔗 [GitHub](https://github.com/ateniltonjr)
 
 ## 📝 Descrição
@@ -26,15 +32,16 @@ Projeto desenvolvido para **Raspberry Pi Pico W kit BitDogLab** que utiliza:
 O sistema mede distâncias com precisão e exibe alertas no display conforme a proximidade de objetos.
 
 ## 🔌 Esquema de Conexões
-| Componentes      | Pino Pico| Emojis 
-| Display SDA      | GP14     | 📡    
-| Display SCL      | GP15     | 📡    
-| Trigger (HC-SR04)| GP[9]    | 🔊    
-| Echo (HC-SR04)   | GP[8]    | 👂    
-| Buzzer           | GP[21]   | 🎵    
-| LED Vermelho     | GP[13]   | 🔴    
-| LED Azul         | GP[12]   | 🔵    
-| LED Verde        | GP[11]   | 🟢    
+| Componentes      | Pino Pico | Emoji |
+|------------------|----------|-------|
+| Display SDA      | GP14     | 📡    |
+| Display SCL      | GP15     | 📡    |
+| Trigger (HC-SR04)| GP9      | 🔊    |
+| Echo (HC-SR04)   | GP8      | 👂    |
+| Buzzer           | GP21     | 🎵    |
+| LED Vermelho     | GP13     | 🔴    |
+| LED Azul         | GP12     | 🔵    |
+| LED Verde        | GP11     | 🟢    |
 
 ## ✨ Funcionalidades
 - 📏 Medição precisa de distância (0-400cm)
@@ -81,11 +88,9 @@ Copy
 │   ├── 🔤 font.h                # Fontes
 │   ├── 💡 led_buzzer.h          # LEDs/buzzer
 │   └── 📏 sensor_ultrassonico.h # Configurações do sensor ultrassônico
-│   ├── 🌟 exibicao.h            # Exibe a leitura do sensor no monitor serial e no display
+│   ├── 🌟 exibicao.h            # Exibe a leitura do sensor
 ├── 📜 README.md
 └── 📜 CMakeLists.txt
-
-
 🤝 Contribuições
 💡 Ideias e contribuições são bem-vindas!
 🔧 Como contribuir:
