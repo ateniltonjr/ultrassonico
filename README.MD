@@ -1,11 +1,10 @@
 # 🚀 Projeto de Monitoramento com Display OLED e Sensor Ultrassônico
 
-<div align="center">
-  
-| ![Demonstração 1](image.png) | ![Demonstração 2](image-1.png) |
-|------------------------------|------------------------------|
-| ![Diagrama 1](image-2.png)    | ![Diagrama 2](image-3.png)    |
-
+<div align="center" style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <img src="image.png" width="23%" alt="Demonstração 1">
+  <img src="image-1.png" width="23%" alt="Demonstração 2">
+  <img src="image-2.png" width="23%" alt="Diagrama 1">
+  <img src="image-3.png" width="23%" alt="Diagrama 2">
 </div>
 
 ## 📑 Sumário
